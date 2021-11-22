@@ -29,7 +29,7 @@ function adicionar() {
         lista.appendChild(item)
         resultado.innerHTML = ''
     } else {
-        window.alert('Valor inválido ou já encontrado na lista.')
+        window.alert('Valor inválido ou já adicionado à lista.')
     }
     num.value = ''
     num.focus() //Volta para dentro da caixa ("num") como se ela houvesse sido clicada pelo cursos do mouse.
